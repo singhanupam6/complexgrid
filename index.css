@@ -1,0 +1,130 @@
+#parent{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-gap:2px;
+    justify-content: center;
+    padding: 150px;
+}
+#child1{
+    background-color: red;
+    border: 1px solid red;
+    padding: 10px;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+#child2{
+    background-color: purple;
+    border: 1px solid purple;
+    padding: 50px;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+#child3{
+    background-color: red;
+    border: 1px solid red;
+    padding: 50px;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+#child4{
+    background-color: rgb(87, 87, 236);
+    border: 1px solid rgb(87, 87, 236);
+    padding: 50px;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 5;
+    grid-column-end: 6;
+}
+#child5{
+    background-color: purple;
+    border: 1px solid purple;
+    padding: 50px;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+#child6{
+    background-color: orange;
+    border: 1px solid orange;
+    padding: 50px;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+#child7{
+    background-color: white;
+    border: 1px solid rgb(87, 87, 236);
+    padding: 50px;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+#child8{
+    background-color: orange;
+    border: 1px solid orange;
+    padding: 50px;
+}
+#child9{
+    background-color: orange;
+    border: 1px solid orange;
+    padding: 50px;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+#child11{
+    background-color: purple;
+    border: 1px solid purple;
+    padding: 50px;
+}
+#child12{
+    background-color: red;
+    border: 1px solid red;
+    padding: 50px;
+}
+#child13{
+    background-color: purple;
+    border: 1px solid purple;
+    padding: 50px;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    grid-column-start: 5;
+    grid-column-end: 6;
+}
+#child14{
+    background-color: orange;
+    border: 1px solid orange;
+    padding: 50px;
+    grid-row-start: 4;
+    grid-row-end: 6;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+#child15{
+    background-color: purple;
+    border: 1px solid purple;
+    padding: 50px;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+#child16{
+    background-color: rgb(87, 87, 236);
+    border: 1px solid rgb(87, 87, 236);
+    padding: 50px;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
